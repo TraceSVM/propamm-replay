@@ -1,0 +1,9 @@
+.git/
+target/
+recordings/
+output/
+*.parquet
+**/__pycache__/
+*.pyc
+scripts/*.bak*
+.env

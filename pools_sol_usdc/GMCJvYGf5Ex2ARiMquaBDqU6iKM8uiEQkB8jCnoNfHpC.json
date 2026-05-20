@@ -1,0 +1,11 @@
+{
+  "type": "goonfi",
+  "id": "GMCJvYGf5Ex2ARiMquaBDqU6iKM8uiEQkB8jCnoNfHpC",
+  "symbol": "SOL-USDC",
+  "accounts": {
+    "pool": "GMCJvYGf5Ex2ARiMquaBDqU6iKM8uiEQkB8jCnoNfHpC",
+    "base_vault": "8ncU5YW1CQwvr4gs7buH57bW58e86TDau4STrCJBuz8z",
+    "quote_vault": "EunHLeqeJKvxnCPQSytnBP63HJVk2fbHceiKKpngyAo8",
+    "oracle": "7yecFG22heommABQ5svcbQLK1Ua4ZrJsHPiktZ17jfm3"
+  }
+}

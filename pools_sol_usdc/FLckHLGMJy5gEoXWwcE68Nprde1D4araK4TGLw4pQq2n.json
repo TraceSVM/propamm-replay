@@ -1,0 +1,10 @@
+{
+  "type": "tesserav",
+  "id": "FLckHLGMJy5gEoXWwcE68Nprde1D4araK4TGLw4pQq2n",
+  "symbol": "SOL-USDC",
+  "accounts": {
+    "pool": "FLckHLGMJy5gEoXWwcE68Nprde1D4araK4TGLw4pQq2n",
+    "base_vault": "5pVN5XZB8cYBjNLFrsBCPWkCQBan5K5Mq2dWGzwPgGJV",
+    "quote_vault": "9t4P5wMwfFkyn92Z7hf463qYKEZf8ERVZsGBEPNp8uJx"
+  }
+}

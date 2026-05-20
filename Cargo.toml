@@ -1,0 +1,21 @@
+[workspace]
+members = ["recorder", "quoter"]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+version = "0.1.0"
+
+[workspace.lints.clippy]
+too_many_arguments = "allow"
+needless_range_loop = "allow"
+needless_late_init = "allow"
+manual_div_ceil = "allow"
+manual_clamp = "allow"
+if_same_then_else = "allow"
+wrong_self_convention = "allow"
+field_reassign_with_default = "allow"
+
+[profile.release]
+opt-level = 3
+lto = "thin"

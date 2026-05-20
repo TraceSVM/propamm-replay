@@ -1,0 +1,10 @@
+{
+  "type": "bisonfi",
+  "id": "Gsu4WmGJf9z4RWiQ9onE9u29rSvh5XsAkVwUJ2bLrGQb",
+  "symbol": "USDC-USDT",
+  "accounts": {
+    "pool": "Gsu4WmGJf9z4RWiQ9onE9u29rSvh5XsAkVwUJ2bLrGQb",
+    "base_vault": "GfWfn6sXAqC6neKL2McGqcJoSx2AVA6wczLD4MxEhd7s",
+    "quote_vault": "3EkDkxrgbogaEc5Gk6MSnahryC7Tn2CdCHVFPqXZFYNv"
+  }
+}

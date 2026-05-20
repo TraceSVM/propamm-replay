@@ -1,0 +1,12 @@
+{
+  "type": "solfiv2",
+  "id": "Bnwc3wzE8PYYvgtbriRn9RpRnDH1TvJJthJVacrbgiD7",
+  "symbol": "SOL-USDC",
+  "accounts": {
+    "pool": "Bnwc3wzE8PYYvgtbriRn9RpRnDH1TvJJthJVacrbgiD7",
+    "base_vault": "AWfKSoaoaN6WzLBF8z7dR5Kf7WRnS4cwHENLXrtnPeui",
+    "quote_vault": "BsfBeWT6fLeJ1FnzSaFugECnDvhi5to6zsF7BUU1Sy9w",
+    "oracle": "2ny7eGyZCoeEVTkNLf5HcnJFBKkyA4p4gcrtb3b8y8ou",
+    "orderbook": "FmxXDSR9WvpJTCh738D1LEDuhMoA8geCtZgHb3isy7Dp"
+  }
+}

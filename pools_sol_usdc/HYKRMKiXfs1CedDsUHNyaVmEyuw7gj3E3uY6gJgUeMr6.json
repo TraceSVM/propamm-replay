@@ -1,0 +1,12 @@
+{
+  "type": "solfiv2",
+  "id": "HYKRMKiXfs1CedDsUHNyaVmEyuw7gj3E3uY6gJgUeMr6",
+  "symbol": "SOL-USDC",
+  "accounts": {
+    "pool": "HYKRMKiXfs1CedDsUHNyaVmEyuw7gj3E3uY6gJgUeMr6",
+    "base_vault": "cDybHnLgzRj56UJiEkrqiDzd3FVfa5TdLjE8DEk61bK",
+    "quote_vault": "45MKjgqonH7phoz8BdgpVCFBuctiGnuR96ad4YefJvLg",
+    "oracle": "Z1AoAt66AH9qs8uPt1RnBrKKcT3qazf5jEBWceoKzPT",
+    "orderbook": "11111111111111111111111111111111"
+  }
+}

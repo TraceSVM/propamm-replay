@@ -1,0 +1,10 @@
+{
+  "type": "bisonfi",
+  "id": "AWVYnCT2ZdLsWZf1X9KXatZhC2TyruRM22y8KZqVeupr",
+  "symbol": "SOL-USDC",
+  "accounts": {
+    "pool": "AWVYnCT2ZdLsWZf1X9KXatZhC2TyruRM22y8KZqVeupr",
+    "base_vault": "7vphMCBirVbSW2ucLk4pcPAPjFMUxo4KPGXYg6R7WKqR",
+    "quote_vault": "4XW3x1o6DkoRrd5YWHdXupMGbAdbRMKPZNzKkkiTa8Yj"
+  }
+}

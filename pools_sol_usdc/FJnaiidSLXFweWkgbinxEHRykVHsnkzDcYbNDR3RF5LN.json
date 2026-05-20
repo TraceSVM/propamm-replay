@@ -1,0 +1,10 @@
+{
+  "type": "bisonfi",
+  "id": "FJnaiidSLXFweWkgbinxEHRykVHsnkzDcYbNDR3RF5LN",
+  "symbol": "SOL-USDT",
+  "accounts": {
+    "pool": "FJnaiidSLXFweWkgbinxEHRykVHsnkzDcYbNDR3RF5LN",
+    "base_vault": "C9jjhzojE16zJ296tEPinA35rB1okyMVspE7FnR4idMf",
+    "quote_vault": "F2zDmA4GLsHtSDtEAFo9wWr5VBHLXtZjYzhRoGybWsFM"
+  }
+}

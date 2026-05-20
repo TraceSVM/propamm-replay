@@ -1,0 +1,11 @@
+{
+  "type": "goonfi",
+  "id": "FmiBEriWps99eg63dC66UZfS5Mypa8W5s9J5SFpNGQMX",
+  "symbol": "SOL-USDC",
+  "accounts": {
+    "pool": "FmiBEriWps99eg63dC66UZfS5Mypa8W5s9J5SFpNGQMX",
+    "base_vault": "G3A7Fdv1Vhnx11DA4DtsH8WBpyykUZgf8EuKJZ4dBgP",
+    "quote_vault": "9Fve19NSQwSCWtSugyf7bniTjb2DAfiXUQRDixVwqEvc",
+    "oracle": "9BKWr8SXzLkFRv1A3izFmf1cPGyJmPqzrmzzPyuq7Jdf"
+  }
+}

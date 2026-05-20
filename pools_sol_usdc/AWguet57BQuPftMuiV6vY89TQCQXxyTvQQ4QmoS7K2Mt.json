@@ -1,0 +1,12 @@
+{
+  "type": "zerofi",
+  "id": "AWguet57BQuPftMuiV6vY89TQCQXxyTvQQ4QmoS7K2Mt",
+  "symbol": "SOL-USDC",
+  "accounts": {
+    "pool": "AWguet57BQuPftMuiV6vY89TQCQXxyTvQQ4QmoS7K2Mt",
+    "base_vault": "ERP5RTV6cWmoGrv7r9W2V5pbgDFSepc4j97qNnx1Jris",
+    "quote_vault": "7wYJVD8iXmMQjND1fwi1hPr68QwruVVtirbotyJZXaVH",
+    "extra_a": "7RHJ2WfexqUxy7SXfbNZRZDgZi3D9jtMAQp9VhfzpU8T",
+    "extra_b": "Ef7zPqj4NuZHwaTczUTY9oRbxXrfZseUcKcqPaidCZ5W"
+  }
+}

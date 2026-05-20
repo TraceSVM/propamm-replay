@@ -1,0 +1,32 @@
+[package]
+name = "recorder"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[dependencies]
+yellowstone-grpc-client = "12.2.0"
+yellowstone-grpc-proto = "12.1.0"
+tokio = { version = "1", features = ["full"] }
+clap = { version = "4", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+solana-pubkey = "2"
+anyhow = "1"
+tracing = "0.1"
+tracing-subscriber = "0.3"
+futures = "0.3"
+tokio-stream = "0.1"
+chrono = { version = "0.4", features = ["serde"] }
+ctrlc = "3"
+arrow = { version = "54", default-features = false, features = ["prettyprint"] }
+parquet = { version = "54", default-features = false, features = ["arrow", "snap", "zstd"] }
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls"] }
+base64 = "0.22"
+dotenvy = "0.15"
+bs58 = "0.5"
+tokio-tungstenite = { version = "0.26", features = ["rustls-tls-webpki-roots"] }
+futures-util = "0.3"
+
+[lints]
+workspace = true

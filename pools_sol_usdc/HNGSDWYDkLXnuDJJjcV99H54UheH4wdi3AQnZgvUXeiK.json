@@ -1,0 +1,10 @@
+{
+  "type": "humidifi",
+  "id": "HNGSDWYDkLXnuDJJjcV99H54UheH4wdi3AQnZgvUXeiK",
+  "symbol": "SOL-USDC",
+  "accounts": {
+    "pool": "HNGSDWYDkLXnuDJJjcV99H54UheH4wdi3AQnZgvUXeiK",
+    "base_vault": "EUn4P4SxfnSPaazyMMkEQqdT5D2mBAiKhY8HAoYUy6q8",
+    "quote_vault": "56Uofv2bt75Y2puCPUMjCmvA5cpxkVYCsqqDDf3NSB86"
+  }
+}

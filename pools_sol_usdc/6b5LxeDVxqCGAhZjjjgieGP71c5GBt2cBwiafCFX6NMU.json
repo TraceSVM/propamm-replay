@@ -1,0 +1,10 @@
+{
+  "type": "bisonfi",
+  "id": "6b5LxeDVxqCGAhZjjjgieGP71c5GBt2cBwiafCFX6NMU",
+  "symbol": "SOL-USD1",
+  "accounts": {
+    "pool": "6b5LxeDVxqCGAhZjjjgieGP71c5GBt2cBwiafCFX6NMU",
+    "base_vault": "XRNgJkizFb5NsQdvZ5m6DZcEuHniqr6AkZrBghjKnJA",
+    "quote_vault": "31u6Trjvb8RibaokKouRQ4a6iiNtgoqQxRnUqvoi7KJv"
+  }
+}

@@ -1,0 +1,47 @@
+x-image: &image
+  build: .
+  image: propamm-replay:latest
+  user: "${DOCKER_UID:-0}:${DOCKER_GID:-0}"
+
+services:
+  recorder:
+    <<: *image
+    network_mode: host
+    environment:
+      PROGRAM_FETCH_RPC_URL: ${PROGRAM_FETCH_RPC_URL:-https://api.mainnet-beta.solana.com}
+    volumes:
+      - ./pools_sol_usdc:/app/pools_sol_usdc:ro
+      - ${RECORDINGS_DIR:-/var/solana/data/recordings}:/data/recordings
+    command:
+      - recorder
+      - record
+      - --grpc
+      - ${GRPC_ENDPOINT:-http://127.0.0.1:10000}
+      - --pools
+      - /app/pools_sol_usdc
+      - --output
+      - /data/recordings
+      - --duration
+      - ${DURATION:-12h}
+    profiles: ["record"]
+
+  quoter:
+    <<: *image
+    volumes:
+      - ${RECORDINGS_DIR:-/var/solana/data/recordings}:/data/recordings
+    command:
+      - quoter
+      - quote
+      - --session
+      - /data/recordings/${SESSION:-SET_SESSION_ENV_VAR}
+    profiles: ["quote"]
+
+  analyzer:
+    <<: *image
+    volumes:
+      - ${RECORDINGS_DIR:-/var/solana/data/recordings}:/data/recordings
+    command:
+      - python3
+      - /app/scripts/analysis.py
+      - /data/recordings/${SESSION:-SET_SESSION_ENV_VAR}
+    profiles: ["analyze"]

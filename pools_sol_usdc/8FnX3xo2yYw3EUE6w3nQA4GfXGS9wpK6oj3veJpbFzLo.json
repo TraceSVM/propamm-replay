@@ -1,0 +1,10 @@
+{
+  "type": "bisonfi",
+  "id": "8FnX3xo2yYw3EUE6w3nQA4GfXGS9wpK6oj3veJpbFzLo",
+  "symbol": "SOL-USDC",
+  "accounts": {
+    "pool": "8FnX3xo2yYw3EUE6w3nQA4GfXGS9wpK6oj3veJpbFzLo",
+    "base_vault": "ATRsNGv2nDw7hSMfkUTBoVUDsFDwN7po7KbecyiGWNB4",
+    "quote_vault": "2Y7HATmn9aJBcxCskE5V2U2epmjvkZmB51zTJBbhj4cU"
+  }
+}

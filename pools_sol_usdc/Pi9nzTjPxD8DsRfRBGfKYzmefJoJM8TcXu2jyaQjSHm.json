@@ -1,0 +1,10 @@
+{
+  "type": "alphaq",
+  "id": "Pi9nzTjPxD8DsRfRBGfKYzmefJoJM8TcXu2jyaQjSHm",
+  "symbol": "SOL-USDC",
+  "accounts": {
+    "pool": "445fd6ffBZqWYsryCgs6wcE8exaLkRsMrefAQ5UHvt8v",
+    "base_vault": "GF8SKKobum6UJnhX2mLHePU38htg5vdr9zcY4jH8Pqs2",
+    "quote_vault": "F2KCaXcp7AoQtxTDvNEDCyMyWjSCAMWNzcyN9dsPfPs5"
+  }
+}
